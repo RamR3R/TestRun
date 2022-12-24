@@ -11,6 +11,8 @@ if (a == b) {
 else {
   if (a == c)
     console.log("a,c are Equal");
+  else if(b == c)
+    console.log("b,c are Equal);
   else
     console.log("All are Different");
 }
